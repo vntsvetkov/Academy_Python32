@@ -20,3 +20,4 @@
   - https://realpython.com/python-multiple-constructors/
   - https://www.pythontutorial.net/python-oop/python-class-variables/
   - https://www.pythontutorial.net/python-oop/python-static-methods/
+  - https://habr.com/ru/articles/686220/
