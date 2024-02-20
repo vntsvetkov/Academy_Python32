@@ -32,3 +32,9 @@
   - https://realpython.com/python-multiple-constructors/
   - https://habr.com/ru/articles/686220/
   - https://habr.com/ru/companies/first/articles/775656/#habracut
+
+День 4.
+  - https://pythonchik.ru/osnovy/dokumentirovanie-koda-v-python
+  - https://habr.com/ru/companies/otus/articles/570882/
+  - https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-18-osnovy-oop-inkapsulyaciya-i-nasledovanie-2023-04-17
+  - https://habr.com/ru/companies/timeweb/articles/564826/
