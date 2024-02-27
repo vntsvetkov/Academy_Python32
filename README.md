@@ -38,3 +38,9 @@
   - https://habr.com/ru/companies/otus/articles/570882/
   - https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-18-osnovy-oop-inkapsulyaciya-i-nasledovanie-2023-04-17
   - https://habr.com/ru/companies/timeweb/articles/564826/
+
+День 5.
+  - https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-19-osnovy-oop-abstrakciya-i-polimorfizm-2023-04-24
+  - https://habr.com/ru/articles/557898/
+  - https://habr.com/ru/companies/wunderfund/articles/751424/
+  - https://habr.com/ru/articles/787814/
