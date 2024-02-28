@@ -40,6 +40,7 @@
   - https://habr.com/ru/companies/timeweb/articles/564826/
 
 День 5.
+  - https://digitology.tech/docs/python_3/library/abc.html
   - https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-19-osnovy-oop-abstrakciya-i-polimorfizm-2023-04-24
   - https://habr.com/ru/articles/557898/
   - https://habr.com/ru/companies/wunderfund/articles/751424/
