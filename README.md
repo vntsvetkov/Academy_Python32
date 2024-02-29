@@ -6,7 +6,8 @@
 3. Статья 2. ООП в python
   https://realpython.com/python3-object-oriented-programming/
 
-День 1.
+День 1. Классы и объекты
+  - https://docs-python.ru/tutorial/klassy-jazyke-python/obekt-klassa/
   -  https://www.pythontutorial.net/python-oop/python-__init__/
   -  https://www.pythontutorial.net/python-oop/python-class/
   -  https://www.pythontutorial.net/python-oop/python-instance-variables/
@@ -14,7 +15,9 @@
   -  https://www.pythontutorial.net/python-oop/python-__repr__/
   -  https://www.digitalocean.com/community/tutorials/python-str-repr-functions
 
-День 2.
+День 2. Приватные атрибуты и свойства
+  - https://docs-python.ru/tutorial/klassy-jazyke-python/metod-ekzempljara-klassa/
+  - https://docs-python.ru/tutorial/klassy-jazyke-python/zakrytye-privatnye-peremennye-klassah/
   - https://www.pythontutorial.net/python-oop/python-private-attributes/
   - https://www.pythontutorial.net/python-oop/python-properties/
   - https://www.pythontutorial.net/python-oop/python-property-decorator/
@@ -23,7 +26,10 @@
   - https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-18-osnovy-oop-inkapsulyaciya-i-nasledovanie-2023-04-17
   - https://habr.com/ru/articles/732388/
 
-День 3.
+День 3. Типы методов
+  - https://docs-python.ru/tutorial/klassy-jazyke-python/atributy-peremennye-klassa-peremennye-ekzempljara-klassa/
+  - https://docs-python.ru/tutorial/klassy-jazyke-python/takoe-staticheskij-metod-klassah-zachem-nuzhen/
+  - https://docs-python.ru/tutorial/klassy-jazyke-python/takoe-metod-klassa-zachem-nuzhen/
   - https://www.pythontutorial.net/python-oop/python-class-attributes/
   - https://www.pythontutorial.net/python-oop/python-class-variables/
   - https://www.pythontutorial.net/python-oop/python-methods/
@@ -33,15 +39,24 @@
   - https://habr.com/ru/articles/686220/
   - https://habr.com/ru/companies/first/articles/775656/#habracut
 
-День 4.
+День 4. Наследование
+  - https://docs-python.ru/tutorial/klassy-jazyke-python/nasledovanie-klassov/
   - https://pythonchik.ru/osnovy/dokumentirovanie-koda-v-python
   - https://habr.com/ru/companies/otus/articles/570882/
   - https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-18-osnovy-oop-inkapsulyaciya-i-nasledovanie-2023-04-17
   - https://habr.com/ru/companies/timeweb/articles/564826/
 
-День 5.
+День 5. Абстрактные классы
+  - https://docs-python.ru/tutorial/klassy-jazyke-python/abstraktnye-klassy/
   - https://digitology.tech/docs/python_3/library/abc.html
   - https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-19-osnovy-oop-abstrakciya-i-polimorfizm-2023-04-24
   - https://habr.com/ru/articles/557898/
   - https://habr.com/ru/companies/wunderfund/articles/751424/
   - https://habr.com/ru/articles/787814/
+
+День 6. Множественное наследование и миксины
+  - https://docs-python.ru/tutorial/klassy-jazyke-python/mnozhestvennoe-nasledovanie-klassov/
+  - https://docs-python.ru/tutorial/klassy-jazyke-python/takoe-klassy-miksiny/
+  - https://habr.com/ru/articles/62203/
+  - https://habr.com/ru/companies/skillfactory/articles/683744/
+  - https://www.pythontutorial.net/python-oop/python-mixin/
