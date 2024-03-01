@@ -15,7 +15,7 @@
   -  https://www.pythontutorial.net/python-oop/python-__repr__/
   -  https://www.digitalocean.com/community/tutorials/python-str-repr-functions
 
-День 2. Приватные атрибуты и свойства
+День 2. Инкапсуляция. Приватные атрибуты и свойства
   - https://docs-python.ru/tutorial/klassy-jazyke-python/metod-ekzempljara-klassa/
   - https://docs-python.ru/tutorial/klassy-jazyke-python/zakrytye-privatnye-peremennye-klassah/
   - https://www.pythontutorial.net/python-oop/python-private-attributes/
@@ -46,7 +46,7 @@
   - https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-18-osnovy-oop-inkapsulyaciya-i-nasledovanie-2023-04-17
   - https://habr.com/ru/companies/timeweb/articles/564826/
 
-День 5. Абстрактные классы
+День 5. Абстрактные классы и полиморфизм
   - https://docs-python.ru/tutorial/klassy-jazyke-python/abstraktnye-klassy/
   - https://digitology.tech/docs/python_3/library/abc.html
   - https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-19-osnovy-oop-abstrakciya-i-polimorfizm-2023-04-24
@@ -60,3 +60,5 @@
   - https://habr.com/ru/articles/62203/
   - https://habr.com/ru/companies/skillfactory/articles/683744/
   - https://www.pythontutorial.net/python-oop/python-mixin/
+  - https://www.pythontutorial.net/python-oop/python-multiple-inheritance/
+  - https://www.thedigitalcatonline.com/blog/2020/03/27/mixin-classes-in-python/
