@@ -14,7 +14,7 @@ class DeveloperEmployee(ITEmployee):
         self._language = language
 
     def write_code(self):
-        print('Пишу код на языке ', self._language)
+        print('Пишу код на языке', self._language)
 
 
 class FrontendDeveloper(ABC):
@@ -51,16 +51,21 @@ class BackendProgrammer(DeveloperEmployee, BackendDeveloper):
         print('Создаю БД на языке ', self._language)
 
 
-class FullStackProgrammer(FrontendProgrammer, BackendProgrammer):
+class FullStackProgrammer(DeveloperEmployee, FrontendDeveloper, BackendDeveloper):
 
-    def __init__(self, name, language, front, back):
-        FrontendProgrammer.__init__(self, name, language, front)
-        BackendProgrammer.__init__(self, name, language, back)
+    def __init__(self, name, language):
+        super().__init__(name, language)
 
+    def create_db(self):
+        print("Работаю с базой данных")
+
+    def make_page(self):
+        print("Создаю web-страницу")
 
 def task(developer: DeveloperEmployee):
 
     developer.write_code()
 
 
-programmer = FullStackProgrammer('Игорь', 'Python', 'Менять стиль', 'Авторизация пользователя')
+programmer = FullStackProgrammer('Игорь', 'Python')
+task(programmer)
