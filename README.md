@@ -62,3 +62,10 @@
   - https://www.pythontutorial.net/python-oop/python-mixin/
   - https://www.pythontutorial.net/python-oop/python-multiple-inheritance/
   - https://www.thedigitalcatonline.com/blog/2020/03/27/mixin-classes-in-python/
+
+День 7. Принципы проектирования классов SOLID
+  - https://www.pythontutorial.net/python-oop/python-single-responsibility-principle/ (1)
+  - https://www.pythontutorial.net/python-oop/python-open-closed-principle/ (2)
+  - https://www.pythontutorial.net/python-oop/python-liskov-substitution-principle/ (3)
+  - https://www.pythontutorial.net/python-oop/python-interface-segregation-principle/ (4)
+  - https://www.pythontutorial.net/python-oop/python-dependency-inversion-principle/ (5)
