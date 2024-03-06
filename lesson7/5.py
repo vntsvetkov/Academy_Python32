@@ -8,9 +8,6 @@ from abc import ABC, abstractmethod
 уровня. И то и другое должно зависеть от абстракций, но не
 от конкретных реализаций.
 
-"""
-
-
 class C(ABC):
 
     @abstractmethod
@@ -30,6 +27,11 @@ class A:
 
     def d(self):
         self.c.f()
+
+
+
+"""
+
 
 
 """
@@ -68,16 +70,15 @@ class QRCode(Payment):
 
 class Shop:
 
-    def __init__(self):
-        self.payment = None
+    __payment: Payment
 
     @property
     def payment(self):
-        return self.payment
+        return self.__payment
 
     @payment.setter
     def payment(self, payment: Payment):
-        self.payment = payment
+        self.__payment = payment
 
     def do_pay(self):
         self.payment.pay()
