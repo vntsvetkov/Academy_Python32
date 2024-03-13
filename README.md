@@ -69,3 +69,9 @@
   - https://www.pythontutorial.net/python-oop/python-liskov-substitution-principle/ (3)
   - https://www.pythontutorial.net/python-oop/python-interface-segregation-principle/ (4)
   - https://www.pythontutorial.net/python-oop/python-dependency-inversion-principle/ (5)
+
+День 8. Взаимодействие между классами. Агрегация и композиция.
+  - https://docs-python.ru/standart-library/modul-copy-python/
+  - https://habr.com/ru/companies/piter/articles/648299/
+  - https://realpython.com/python-classes/#using-alternatives-to-inheritance
+  - 
