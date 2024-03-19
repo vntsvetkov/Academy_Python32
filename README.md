@@ -74,4 +74,11 @@
   - https://docs-python.ru/standart-library/modul-copy-python/
   - https://habr.com/ru/companies/piter/articles/648299/
   - https://realpython.com/python-classes/#using-alternatives-to-inheritance
-  - 
+
+День 9. Магические методы. Методы сравнения объектов.
+  - https://tproger.ru/articles/gajd-po-magicheskim-metodam-v-python
+  - https://docs-python.ru/tutorial/klassy-jazyke-python/bazovaja-nastrojka-klassov/
+  - https://habr.com/ru/articles/186608/
+  - https://habr.com/ru/articles/788248/
+
+День 10. Магические методы. Арифметические методы.
