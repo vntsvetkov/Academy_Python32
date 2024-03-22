@@ -75,7 +75,7 @@
   - https://habr.com/ru/companies/piter/articles/648299/
   - https://realpython.com/python-classes/#using-alternatives-to-inheritance
 
-День 9. Магические методы. Методы сравнения объектов.
+День 9. Магические методы. Контейнеры. Методы сравнения объектов.
   - https://tproger.ru/articles/gajd-po-magicheskim-metodam-v-python
   - https://docs-python.ru/tutorial/klassy-jazyke-python/bazovaja-nastrojka-klassov/
   - https://docs-python.ru/tutorial/klassy-jazyke-python/spetsialnye-magicheskie-metody-klassa/
@@ -83,3 +83,7 @@
   - https://habr.com/ru/articles/788248/
 
 День 10. Магические методы. Арифметические методы.
+  - https://tproger.ru/articles/gajd-po-magicheskim-metodam-v-python/
+  - https://habr.com/ru/articles/186608/
+  - https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-issubclass/
+  - https://habr.com/ru/articles/415829/
