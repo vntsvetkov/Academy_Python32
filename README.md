@@ -1,10 +1,13 @@
 # Репозиторий для хранения исходного кода группы Academy_Python32
-1. Туториал
-  https://www.pythontutorial.net/python-oop/
-2. Статья 1. ООП в python
-  https://python-scripts.com/object-oriented-programming-in-python
-3. Статья 2. ООП в python
-  https://realpython.com/python3-object-oriented-programming/
+Часть 1. Объектно-ориентированное программирование
+
+Общая информация:
+  1. Туториал
+    https://www.pythontutorial.net/python-oop/
+  2. Статья 1. ООП в python
+    https://python-scripts.com/object-oriented-programming-in-python
+  3. Статья 2. ООП в python
+    https://realpython.com/python3-object-oriented-programming/
 
 День 1. Классы и объекты
   - https://docs-python.ru/tutorial/klassy-jazyke-python/obekt-klassa/
@@ -87,3 +90,20 @@
   - https://habr.com/ru/articles/186608/
   - https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-issubclass/
   - https://habr.com/ru/articles/415829/
+
+Часть 2. Структуры данных и алгоритмы
+
+Общая информация:
+  1. Стеки и очереди на практике
+     https://realpython.com/queue-in-python/
+  2. Структуры данных
+     https://proglib.io/p/data-structures
+  3. Алгоритмическая сложность
+     https://habr.com/ru/articles/794556/
+
+День 1. Стек и очередь
+  - https://thecode.media/stack/
+  - https://proglib.io/p/abstract-data-types-in-python
+  - https://www.geeksforgeeks.org/stack-in-python/
+  - https://www.geeksforgeeks.org/queue-in-python/
+  - https://www.geeksforgeeks.org/stack-and-queues-in-python/
