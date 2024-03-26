@@ -16,3 +16,34 @@ Task 1. Дана скобочная последовательность. Нуж
 Напишите функцию is_correct_brackets, которая принимает на вход скобочную последовательность и возвращает True, 
 если последовательность правильная, а иначе возвращает False.
 """
+
+
+def is_correct_brackets(sequence: str) -> bool:
+
+    brackets = {
+        '(': ')',
+        '[': ']',
+        '{': '}',
+        '<': '>'
+    }
+
+    stack = Stack()
+    for symbol in sequence:
+        if symbol in brackets.keys():
+            stack.push(symbol)
+        elif not stack.is_empty() and symbol == brackets[stack.peek()]:
+            stack.pop()
+        else:
+            return False
+
+    if stack.is_empty():
+        return True
+    else:
+        return False
+
+
+print(is_correct_brackets('((()))'))  # True
+print(is_correct_brackets('((()()'))  # False
+print(is_correct_brackets('(()'))  # False
+print(is_correct_brackets(''))  # True
+
