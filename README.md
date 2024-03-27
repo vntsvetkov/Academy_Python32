@@ -107,3 +107,4 @@
   - https://www.geeksforgeeks.org/stack-in-python/
   - https://www.geeksforgeeks.org/queue-in-python/
   - https://www.geeksforgeeks.org/stack-and-queues-in-python/
+  - https://habr.com/ru/companies/yandex_praktikum/articles/705178/
