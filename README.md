@@ -108,3 +108,12 @@
   - https://www.geeksforgeeks.org/queue-in-python/
   - https://www.geeksforgeeks.org/stack-and-queues-in-python/
   - https://habr.com/ru/companies/yandex_praktikum/articles/705178/
+
+День 2. Двусторонняя очередь. Класс collections.deque. Связные списки.
+  - https://docs-python.ru/standart-library/modul-collections-python/klass-deque-modulja-collections/
+  - https://www.geeksforgeeks.org/deque-in-python/
+  - https://habr.com/ru/companies/vk/articles/700520/
+  - https://realpython.com/python-deque/
+  - https://proglib.io/p/abstract-data-types-in-python
+  - https://habr.com/ru/companies/otus/articles/470828/
+  - https://www.geeksforgeeks.org/data-structures/linked-list/
