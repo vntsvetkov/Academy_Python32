@@ -22,6 +22,7 @@ class LinkedList:
 
     def add_first(self, item):
         self._head = Node(item, self._head)
+        self._length += 1
 
     def add_last(self, item):
         if self._head is None:
@@ -32,11 +33,14 @@ class LinkedList:
                 cursor = cursor.link
             cursor.link = Node(item, None)
 
+        self._length += 1
+
     def remove_first(self):
         if self._head is None:
             raise
         item = self._head.data
         self._head = self._head.link
+        self._length -= 1
         return item
 
     def remove_last(self):
@@ -45,6 +49,7 @@ class LinkedList:
         if self._head.link is None:
             item = self._head.data
             self._head = self._head.link
+            self._length -= 1
             return item
         else:
             cursor = self._head
@@ -52,6 +57,7 @@ class LinkedList:
                 cursor = cursor.link
             item = cursor.link.data
             cursor.link = None
+            self._length -= 1
             return item
 
     def __len__(self):
@@ -66,6 +72,17 @@ class LinkedList:
             cursor = cursor.link
         print(cursor.data)
 
+
+head = Node(1,
+            Node(2,
+                 Node(3,
+                      Node(4, None))))
+
+linked_list = LinkedList()
+linked_list.add_last(1)
+linked_list.add_last(2)
+linked_list.add_last(3)
+linked_list.add_last(4)
 
 linked_list = LinkedList()
 linked_list.add_last(1)

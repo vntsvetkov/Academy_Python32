@@ -1,38 +1,44 @@
 import time
+from linkedlist1 import LinkedList
 
 
 class Deque:
 
     def __init__(self):
-        self._data = []
+        self._data = LinkedList()
 
     def add_first(self, item):
         """ добавление элемента item в начало """
-        self._data.insert(0, item)
+        self._data.add_first(item)
 
     def add_last(self, item):
         """ добавление элемента item в конец """
-        self._data.append(item)
+        self._data.add_last(item)
 
     def remove_first(self):
         """ удаляет и возвращает первый элемент """
-        self._data.pop(0)
+        self._data.remove_first()
 
     def remove_last(self):
         """ удаляет и возвращает последний элемент """
-        self._data.pop()
+        self._data.remove_last()
 
     def __str__(self):
         return f"""{self.__class__.__name__}({self._data})"""
 
-    def copy(self):
-        return self._data.copy()
+    def __len__(self):
+        return len(self._data)
 
 
 d = Deque()
 
-for i in range(100_000):
+t = time.time()
+
+for i in range(1_000_000):
     d.add_first(1)
 
-for i in range(100_000):
+for i in range(1_000_000):
     d.remove_first()
+
+t = time.time() - t
+print(t)
