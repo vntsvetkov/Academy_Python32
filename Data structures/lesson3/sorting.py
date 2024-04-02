@@ -1,5 +1,5 @@
 import time
-
+from min_heap import BinMinHeap
 
 def timer(f):
     """ Декоратор для замера времениработы функции"""
@@ -13,12 +13,12 @@ def timer(f):
 
 
 @timer
-def heapsort(iterable):
-    """ Пирамидальная сортировка с использованием минимальной кучи из модуля heapq"""
-    h = []
-    for value in iterable:
-        heappush(h, value)
-    return [heappop(h) for _ in range(len(h))]
+def heapsort(data):
+    x = []
+    heap = BinMinHeap(data)
+    while heap.data:
+        x.append(heap.delete())
+    return x
 
 @timer
 def bubble_sorting(alist: list) -> list:
