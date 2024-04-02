@@ -117,3 +117,15 @@
   - https://proglib.io/p/abstract-data-types-in-python
   - https://habr.com/ru/companies/otus/articles/470828/
   - https://www.geeksforgeeks.org/data-structures/linked-list/
+
+День 3. Очередь с приоритетом и двоичные кучи
+  - https://www.geeksforgeeks.org/priority-queue-in-python/
+  - https://thecode.media/trie/
+  - https://www.geeksforgeeks.org/binary-tree-data-structure/
+  - https://thecode.media/heap/
+  - https://docs-python.ru/standart-library/modul-heapq-python/
+  - https://www.geeksforgeeks.org/heap-queue-or-heapq-in-python/
+  - https://tproger.ru/translations/sorting-algorithms-in-python
+  - https://habr.com/ru/companies/edison/articles/495420/
+  - https://www.geeksforgeeks.org/python-program-for-heap-sort/
+  - https://habr.com/ru/companies/otus/articles/460087/
