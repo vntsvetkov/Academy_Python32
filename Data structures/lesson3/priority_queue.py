@@ -10,7 +10,7 @@ class Element:
         return f"(Значение {self.item}; Приоритет {self.priority})"
 
 
-class PriorityQueue:
+class ListPriorityQueue:
     def __init__(self):
         self._queue: list[Element] = []
 
