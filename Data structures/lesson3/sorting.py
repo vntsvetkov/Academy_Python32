@@ -14,11 +14,7 @@ def timer(f):
 
 @timer
 def heapsort(iterable):
-    """ Пирамидальная сортировка с использованием минимальной кучи из модуля heapq"""
-    h = []
-    for value in iterable:
-        heappush(h, value)
-    return [heappop(h) for _ in range(len(h))]
+    ...
 
 @timer
 def bubble_sorting(alist: list) -> list:
