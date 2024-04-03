@@ -129,3 +129,18 @@
   - https://habr.com/ru/companies/edison/articles/495420/
   - https://www.geeksforgeeks.org/python-program-for-heap-sort/
   - https://habr.com/ru/companies/otus/articles/460087/
+
+Часть 3. Паттерны проектирования
+
+Общая информация:
+  - Руководство по диаграммам классов UML
+    https://www.cybermedian.com/ru/a-comprehensive-guide-to-uml-class-diagram/
+  - Шаблоны проектирования на python
+    https://python-patterns.guide/
+  - О паттернах проектирования
+    https://proglib.io/p/python-patterns
+
+День 1. Порождающие паттерны
+  - https://tproger.ru/translations/design-patterns-simple-words-1
+  - https://proglib.io/p/creational-patterns
+  - https://www.geeksforgeeks.org/python-design-patterns/
