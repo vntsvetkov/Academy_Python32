@@ -135,12 +135,13 @@
 Общая информация:
   - Руководство по диаграммам классов UML
     https://www.cybermedian.com/ru/a-comprehensive-guide-to-uml-class-diagram/
+    https://habr.com/ru/articles/511798/
   - Шаблоны проектирования на python
     https://python-patterns.guide/
   - О паттернах проектирования
     https://proglib.io/p/python-patterns
 
-День 1. Порождающие паттерны
+День 1. Диаграммы классов. Порождающие паттерны
   - https://tproger.ru/translations/design-patterns-simple-words-1
   - https://proglib.io/p/creational-patterns
   - https://www.geeksforgeeks.org/python-design-patterns/
