@@ -145,3 +145,13 @@
   - https://tproger.ru/translations/design-patterns-simple-words-1
   - https://proglib.io/p/creational-patterns
   - https://www.geeksforgeeks.org/python-design-patterns/
+
+День 2. Порождающие паттерны.
+  Синглтон
+  - https://docs-python.ru/tutorial/klassy-jazyke-python/ispolzovanie-new-klassah/
+  - https://proglib.io/p/3-luchshih-patterna-proektirovaniya-v-python-singlton-dekorator-i-iterator-2022-02-03
+  - https://ask-dev.ru/info/16262/creating-a-singleton-in-python
+  Фабричный метод
+  - https://proglib.io/p/factory-method-python
+  - https://docs-python.ru/tutorial/klassy-jazyke-python/shablon-proektirovanija-fabrika/
+  - https://habr.com/ru/articles/725340/
