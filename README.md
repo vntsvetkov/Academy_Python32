@@ -154,3 +154,16 @@
   - https://habr.com/ru/articles/725340/
 
 День 3. Структурные паттерны
+  - https://proglib.io/p/structural-patterns
+  - https://proglib.io/p/python-patterns
+  - https://www.geeksforgeeks.org/python-design-patterns/
+  
+  Фасад
+  - https://habr.com/ru/articles/688546/
+  
+  Адаптер
+  - https://sky.pro/media/modul-json-v-python/
+
+  Декоратор
+  - https://proglib.io/p/3-luchshih-patterna-proektirovaniya-v-python-singlton-dekorator-i-iterator-2022-02-03
+  - https://habr.com/ru/articles/335866/
