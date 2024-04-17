@@ -166,4 +166,10 @@
 
   Декоратор
   - https://proglib.io/p/3-luchshih-patterna-proektirovaniya-v-python-singlton-dekorator-i-iterator-2022-02-03
-  - https://habr.com/ru/articles/335866/
+  - https://habr.com/ru/articles/750312/ (декораторы классов)
+  - https://habr.com/ru/articles/710654/ (декораторы классов)
+  - https://habr.com/ru/articles/335866/ (мемоизация и карринг)
+  - https://habr.com/ru/articles/781866/ (замыкания и декораторы)
+  - https://habr.com/ru/articles/800239/ (замыкания и декораторы)
+
+День 4. Поведенческие паттерны
