@@ -57,6 +57,14 @@ class JsonHumanAdapter(JsonAdapter):
         obj: dict = json.loads(data)
         return Human(*obj.values())
 
+    @staticmethod
+    def dump(obj):
+        ...
+
+    @staticmethod
+    def load(path: str):
+        ...
+
 
 human = Human('John', 29, 'm')
 json_human = JsonHumanAdapter.dumps(human)

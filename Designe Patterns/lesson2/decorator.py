@@ -15,7 +15,7 @@ class NotificationSender:
         print(f"Уведомление в личном кабинете: {message}")
 
 
-class DecoratorNotificationSender(NotificationSender):
+class DecoratorNotificationSender:
 
     _notification: NotificationSender
 
@@ -33,22 +33,5 @@ class SMSNotificationSender(DecoratorNotificationSender):
         super().send(message)
 
 
-# notification_sender = SMSNotificationSender(NotificationSender())
-# notification_sender.send("Привет")
-
-
-def decorator(name):
-    def outer(f):
-        def wrapper(*args, **kwargs):
-            result = f(*args, **kwargs)  # Привет
-            return result + " " + name
-        return wrapper
-    return outer
-
-
-@decorator("Вася")
-def func():
-    return "Привет"
-
-
-my_func = func()
+notification_sender = SMSNotificationSender(NotificationSender())
+notification_sender.send("Привет")
