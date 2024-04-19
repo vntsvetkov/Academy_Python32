@@ -173,3 +173,12 @@
   - https://habr.com/ru/articles/800239/ (замыкания и декораторы)
 
 День 4. Поведенческие паттерны
+  - https://tproger.ru/translations/design-patterns-simple-words-3/
+  - https://proglib.io/p/behavioral-patterns
+  - https://proglib.io/p/python-patterns
+  - https://www.geeksforgeeks.org/python-design-patterns/
+
+  Итератор
+  - https://habr.com/ru/articles/337314/
+  - https://proglib.io/p/py-patterns
+  - https://proglib.io/p/3-luchshih-patterna-proektirovaniya-v-python-singlton-dekorator-i-iterator-2022-02-03
