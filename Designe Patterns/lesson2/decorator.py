@@ -8,14 +8,19 @@ from abc import ABC, abstractmethod
 
 """
 
+class Notification(ABC):
 
-class NotificationSender:
+    @abstractmethod
+    def send(self, _):
+        ...
+
+class NotificationSender(Notification):
 
     def send(self, message):
         print(f"Уведомление в личном кабинете: {message}")
 
 
-class DecoratorNotificationSender:
+class DecoratorNotificationSender(NotificationSender):
 
     _notification: NotificationSender
 
@@ -33,5 +38,17 @@ class SMSNotificationSender(DecoratorNotificationSender):
         super().send(message)
 
 
-notification_sender = SMSNotificationSender(NotificationSender())
+class EmailNotificationSender(DecoratorNotificationSender):
+
+    def __init__(self, notification: NotificationSender):
+        self._notification = notification
+
+    def send(self, message):
+        print(f"Уведомление по email: {message}")
+        super().send(message)
+
+
+notification_sender = NotificationSender()
+notification_sender = SMSNotificationSender(notification_sender)
+notification_sender = EmailNotificationSender(notification_sender)
 notification_sender.send("Привет")
