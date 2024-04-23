@@ -3,6 +3,7 @@
 from abc import ABC, abstractmethod
 from collections.abc import Iterator
 
+
 """
 Паттер итератор.
 Позволет обходить элементы коллекции, не раскрывая ее базовое представление.
@@ -12,16 +13,24 @@ from collections.abc import Iterator
 """
 Способ 1. Использование генератора
 
-def fibon(n):
-      a = 0 
-      b = 1
-      for i in range(n):
-          yield a
-          a, b = b, a + b
 
-for x in fibon(10):
-    print(x)
-    
+# 0 1 1 2 3 5 8 13 ...
+
+
+def fibon(n):
+    a = 0
+    b = 1
+    for i in range(n):
+        yield a
+        a, b = b, a + b
+
+
+f = fibon(2)
+print(next(f))
+print(next(f))
+
+f = fibon(300000000000)
+print(next(f))
 """
 
 """
@@ -58,7 +67,9 @@ print(next(it))
 
 
 """
-Способ 3. Реализовать collections.abc.Iterator -> аналог функции iter()
+Способ 3. Реализовать collections.abc.Iterator -> 
+аналог функции iter()
+
 
 
 
@@ -81,17 +92,17 @@ class FibonacciGenerator:
 
 class FibonacciIterator(Iterator):
 
-   def __init__(self, collection):
+    def __init__(self, collection):
         self._position = 0
         self._collection = collection
 
-   def __next__(self):
-       try:
-           value = self._collection[self._position]
-           self._position += 1
-       except IndexError:
-           raise StopIteration
-       return value
+    def __next__(self):
+        try:
+            value = self._collection[self._position]
+            self._position += 1
+        except IndexError:
+            raise StopIteration
+        return value
 
 
 iterator = FibonacciIterator(list(FibonacciGenerator(5)))
@@ -100,13 +111,13 @@ print(next(iterator))
 print(next(iterator))
 print(next(iterator))
 
-
 """
 
 """
 Способ 4. Паттерн итератор
 
 """
+
 
 class Aggregate(ABC):
 
@@ -207,3 +218,4 @@ while True:
     except StopIteration:
         break
     print(itr.current())
+
