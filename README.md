@@ -182,3 +182,14 @@
   - https://habr.com/ru/articles/337314/
   - https://proglib.io/p/py-patterns
   - https://proglib.io/p/3-luchshih-patterna-proektirovaniya-v-python-singlton-dekorator-i-iterator-2022-02-03
+
+Часть 4. Юнит-тестирование
+  - https://docs.python.org/3/library/unittest.html
+  - https://habr.com/ru/companies/otus/articles/481806/
+  - https://habr.com/ru/articles/447438/
+  - https://habr.com/ru/companies/yandex/articles/517266/
+  - https://habr.com/ru/companies/otus/articles/433358/
+  - https://habr.com/ru/companies/otus/articles/433572/
+  - https://habr.com/ru/articles/192512/
+  - https://habr.com/ru/companies/otus/articles/556980/
+   
