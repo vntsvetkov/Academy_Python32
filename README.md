@@ -211,5 +211,6 @@
   - https://tproger.ru/articles/tablicy-v-sql
   - https://www.postgresql.org/docs/current/datatype.html
   - https://info-comp.ru/what-is-ddl-dml-dcl-tcl
+  - https://www.postgresql.org/download/
   
 
