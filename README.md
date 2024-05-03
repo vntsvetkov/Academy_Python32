@@ -1,4 +1,6 @@
 # Репозиторий для хранения исходного кода группы Academy_Python32
+Блок 1. ООП, структуры данных и паттерны проектирования
+
 Часть 1. Объектно-ориентированное программирование
 
 Общая информация:
@@ -193,3 +195,21 @@
   - https://habr.com/ru/articles/192512/
   - https://habr.com/ru/companies/otus/articles/556980/
    
+Блок 2. Базы данных
+
+Часть 1. Базы данных PostgreSQL
+Документация:
+  - https://www.postgresqltutorial.com/
+  - https://www.sqlstyle.guide/
+  - https://www.w3schools.com/postgresql/index.php
+  - https://postgrespro.ru/docs/postgresql/16/tutorial
+
+День 1. Модели БД. Установка и настройка PostgreSQL. DDL операторы. Создание таблиц.
+  - https://docs.rkeeper.ru/rk7/latest/ru/ustanovka-postgresql-na-windows-29421153.html
+  - https://winitpro.ru/index.php/2019/10/25/ustanovka-nastrojka-postgresql-v-windows/
+  - https://habr.com/ru/articles/579248/
+  - https://tproger.ru/articles/tablicy-v-sql
+  - https://www.postgresql.org/docs/current/datatype.html
+  - https://info-comp.ru/what-is-ddl-dml-dcl-tcl
+  
+
