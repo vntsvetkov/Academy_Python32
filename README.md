@@ -198,19 +198,27 @@
 Блок 2. Базы данных
 
 Часть 1. Базы данных PostgreSQL
+
 Документация:
   - https://www.postgresqltutorial.com/
   - https://www.sqlstyle.guide/
   - https://www.w3schools.com/postgresql/index.php
   - https://postgrespro.ru/docs/postgresql/16/tutorial
 
-День 1. Модели БД. Установка и настройка PostgreSQL. DDL операторы. Создание таблиц.
-  - https://docs.rkeeper.ru/rk7/latest/ru/ustanovka-postgresql-na-windows-29421153.html
-  - https://winitpro.ru/index.php/2019/10/25/ustanovka-nastrojka-postgresql-v-windows/
-  - https://habr.com/ru/articles/579248/
-  - https://tproger.ru/articles/tablicy-v-sql
-  - https://www.postgresql.org/docs/current/datatype.html
-  - https://info-comp.ru/what-is-ddl-dml-dcl-tcl
-  - https://www.postgresql.org/download/
+Занятие 1. Модели БД. Установка и настройка PostgreSQL.
+  - https://docs.rkeeper.ru/rk7/latest/ru/ustanovka-postgresql-na-windows-29421153.html (установка)
+  - https://habr.com/ru/articles/579248/ (модели БД)
+  - https://tproger.ru/articles/tablicy-v-sql (типы таблиц)
+  - https://www.postgresql.org/docs/current/datatype.html (типы данных)
+  - https://info-comp.ru/what-is-ddl-dml-dcl-tcl (группы операторов SQL)
+  - https://www.postgresql.org/download/ (установочник)
+
+Занятие 2. DDL операторы. Создание таблиц.
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-create-table/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-primary-key/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-check-constraint/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-unique-constraint/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-default-value/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-not-null-constraint/
   
 
