@@ -208,6 +208,8 @@
 Занятие 1. Модели БД. Установка и настройка PostgreSQL.
   - https://docs.rkeeper.ru/rk7/latest/ru/ustanovka-postgresql-na-windows-29421153.html (установка)
   - https://habr.com/ru/articles/579248/ (модели БД)
+  - https://thecode.media/5-db-types/
+  - https://thecode.media/nosql/
   - https://tproger.ru/articles/tablicy-v-sql (типы таблиц)
   - https://www.postgresql.org/docs/current/datatype.html (типы данных)
   - https://info-comp.ru/what-is-ddl-dml-dcl-tcl (группы операторов SQL)
