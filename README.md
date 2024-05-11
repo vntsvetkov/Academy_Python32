@@ -216,11 +216,29 @@
   - https://www.postgresql.org/download/ (установочник)
 
 Занятие 2. DDL операторы. Создание таблиц.
+  - https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-create-table/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-data-types/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-primary-key/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-check-constraint/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-unique-constraint/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-default-value/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-not-null-constraint/
   
+Занятие 3.
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-alter-table/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-add-column/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-drop-column/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-change-column-type/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-insert/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-insert-multiple-rows/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-update/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-delete/
 
+Занятие 4.
+- https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-select/
+- https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-select-distinct/
+- https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-column-alias/
+- https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-where/
+- https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-and/
+- https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-or/
