@@ -215,7 +215,7 @@
   - https://info-comp.ru/what-is-ddl-dml-dcl-tcl (группы операторов SQL)
   - https://www.postgresql.org/download/ (установочник)
 
-Занятие 2. DDL операторы. Создание таблиц.
+Занятие 2. DDL операторы. Создание и удаление таблиц.
   - https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-create-table/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-data-types/
@@ -225,7 +225,7 @@
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-default-value/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-not-null-constraint/
   
-Занятие 3.
+Занятие 3. DDL операторы. Добавление/удаление/изменение характеристик таблицы
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-alter-table/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-add-column/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-drop-column/
@@ -235,10 +235,14 @@
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-update/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-delete/
 
-Занятие 4.
-- https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-select/
-- https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-select-distinct/
-- https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-column-alias/
-- https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-where/
-- https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-and/
-- https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-or/
+Занятие 4. DML операторы. Вставка/удаление/обновление записей таблицы
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-select/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-select-distinct/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-column-alias/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-where/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-and/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-or/
+
+Занятие 5.
+
+Занятие 6.
