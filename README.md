@@ -230,19 +230,24 @@
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-add-column/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-drop-column/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-change-column-type/
+
+Занятие 4. DML операторы. Вставка/удаление/обновление записей таблицы
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-insert/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-insert-multiple-rows/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-update/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-delete/
 
-Занятие 4. DML операторы. Вставка/удаление/обновление записей таблицы
+Занятие 5. Запросы. Структура запросов. Операторы SELECT, WHERE, CASE.
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-select/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-select-distinct/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-column-alias/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-where/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-and/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-or/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-in/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-between/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-like/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-is-null/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-case/
 
-Занятие 5.
-
-Занятие 6.
+Занятие 6. Строковые функции. Функции работы с датой и временем.
