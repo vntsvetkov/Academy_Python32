@@ -236,6 +236,9 @@
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-insert-multiple-rows/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-update/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-delete/
+  - https://ydb.tech/docs/ru/postgresql/statements/insert_into
+  - https://ydb.tech/docs/ru/postgresql/statements/update
+  - https://ydb.tech/docs/ru/postgresql/statements/delete_from
 
 Занятие 5. Запросы. Структура запросов. Операторы SELECT, WHERE, CASE.
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-select/
