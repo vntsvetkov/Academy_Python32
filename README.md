@@ -251,3 +251,8 @@
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-case/
 
 Занятие 6. Строковые функции. Функции работы с датой и временем.
+  - https://oracleplsql.ru/date-time-postgresql.html
+  - https://oracleplsql.ru/string-function-postgresql.html
+  - https://oracleplsql.ru/conversion-functions-postgresql.html
+  - https://ydb.tech/docs/ru/postgresql/functions
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cast/
