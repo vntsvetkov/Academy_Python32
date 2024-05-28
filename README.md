@@ -259,3 +259,14 @@
   - https://oracleplsql.ru/conversion-functions-postgresql.html
   - https://ydb.tech/docs/ru/postgresql/functions
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cast/
+
+Занятие 7. Группировка. Операторы GROUP BY, HAVING. Агрегатные (математические) функции.
+  - https://oracleplsql.ru/numeric-mathematical-functions-postgresql.html
+  - https://ydb.tech/docs/ru/postgresql/functions
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-group-by/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-having/
+
+Занятие 8. Сортировка. Операторы ORDER BY, LIMIT, OFFSET.
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-fetch/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-limit/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-order-by/
