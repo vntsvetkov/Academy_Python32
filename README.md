@@ -270,3 +270,13 @@
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-fetch/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-limit/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-order-by/
+
+Занятие 9. Нормализация БД. Типы связей.
+  - https://habr.com/ru/articles/254773/
+  - https://www.studytonight.com/dbms/database-normalization.php
+  - https://habr.com/ru/articles/488054/
+  - https://thecode.media/sql-query/
+
+Занятие 10. Внешний ключ. Межтабличные связи
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-foreign-key/
+  - https://postgrespro.ru/docs/postgresql/16/ddl-constraints#DDL-CONSTRAINTS-FK
