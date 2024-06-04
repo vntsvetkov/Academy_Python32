@@ -280,3 +280,10 @@
 Занятие 10. Внешний ключ. Межтабличные связи
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-foreign-key/
   - https://postgrespro.ru/docs/postgresql/16/ddl-constraints#DDL-CONSTRAINTS-FK
+
+Занятие 11. Многотабличные запросы. Объединения, пересечения, исключения.
+
+Занятие 12. Многотабличные запросы. Внутренние и внешние соединения.
+  - https://proglib.io/p/soedineniya-v-sql-chast-1-tipy-soedineniy-i-prostye-primery-2024-02-29
+  - https://proglib.io/p/soedineniya-v-sql-chast-2-slozhnye-tipy-soedineniy-2024-03-14
+  - https://habr.com/ru/companies/yandex_praktikum/articles/743422/
