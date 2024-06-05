@@ -282,8 +282,15 @@
   - https://postgrespro.ru/docs/postgresql/16/ddl-constraints#DDL-CONSTRAINTS-FK
 
 Занятие 11. Многотабличные запросы. Объединения, пересечения, исключения.
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-union/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-intersect/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-except/
 
 Занятие 12. Многотабличные запросы. Внутренние и внешние соединения.
   - https://proglib.io/p/soedineniya-v-sql-chast-1-tipy-soedineniy-i-prostye-primery-2024-02-29
   - https://proglib.io/p/soedineniya-v-sql-chast-2-slozhnye-tipy-soedineniy-2024-03-14
   - https://habr.com/ru/companies/yandex_praktikum/articles/743422/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-inner-join/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-left-join/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-right-join/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-full-outer-join/
