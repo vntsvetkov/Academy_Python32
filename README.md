@@ -294,3 +294,14 @@
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-left-join/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-right-join/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-full-outer-join/
+
+Занятие 13. Подзапросы
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-subquery/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-correlated-subquery/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-any/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-all/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-exists/
+
+Занятие 14. Обобщенные табличные выражения
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cte/
+  - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-recursive-query/
