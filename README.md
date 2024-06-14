@@ -305,3 +305,12 @@
 Занятие 14. Обобщенные табличные выражения
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cte/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-recursive-query/
+
+Занятие 15. Транзакции
+  - https://habr.com/ru/articles/317884/
+  - https://habr.com/ru/articles/555920/
+  - https://habr.com/ru/companies/alfa/articles/812417/
+
+Занятие 16. Обработка БД PostgreSQL на python
+  - https://www.psycopg.org/docs/
+  - https://www.postgresqltutorial.com/postgresql-python/
