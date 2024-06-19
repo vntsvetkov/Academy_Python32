@@ -14,13 +14,15 @@ class DBConnect:
             cls._instance = psycopg2.connect(*args, **kwargs)
         return cls._instance
 
-    @classmethod
-    def close(cls):
-        cls._instance.close()
-
 
 class Device(ABC):
-    ...
+    @abstractmethod
+    def get_device_name(self):
+        ...
+
+    @abstractmethod
+    def get_model(self):
+        ...
 
 
 class MobileDevice(Device):
@@ -33,13 +35,18 @@ class MobileDevice(Device):
                  release_date: date,
                  counter: int):
         self._device_os = device_os
-        self.device_name = device_name
-        self.model = model
+        self._device_name = device_name
+        self._model = model
         self._memory = memory
         self._price = price
         self._release_date = release_date
         self._counter = counter
 
+    def get_device_name(self):
+        return self._device_name
+
+    def get_model(self):
+        return self._model
 
 class MobileDevicesContainer:
 
@@ -47,8 +54,8 @@ class MobileDevicesContainer:
         self._devices: list[Device] = []
 
     @classmethod
-    def create_list_devices(cls, data: list[tuple]):
-        # перезаписывает data в self._devices
+    def create_list_devices(cls, data: list) -> list[Device]:
+        # перезаписывает data (список кортежей) в self._devices (список объектов Device)
         ...
 
     def get_list_devices(self):
@@ -87,19 +94,18 @@ class PGMobileDevices(DBManager):
     def read(connect, device: Device) -> list[Device]:
         with connect.cursor() as cursor:
 
-            params = (device.device_name, device.model)
+            params = (device.get_device_name, device.get_model)
             query = """SELECT * 
                        FROM mobile_devices
                        WHERE device_name = %s AND model = %s"""
             cursor.execute(query, params)
             data = cursor.fetchall()
             if len(data) > 0:
-                # Преобразовать список кортежей в список Device
-                result: list[Device] = get_list_devices()
+                result: list[Device] = MobileDevicesContainer.get_list_devices(data)
                 return result
             else:
-                # Бросить исключение "Не найдена запись по параметрам"
-                pass
+                raise Exception(f"Не найдена запись с параметрами {params}")
+
 
     @staticmethod
     def update(connect, old_device: Device, new_device: Device):
@@ -110,25 +116,31 @@ class PGMobileDevices(DBManager):
         ...
 
 
-db_connect = None
-try:
-    db_connect = DBConnect.get_connect(dbname='shop',
-                                       host='localhost',
-                                       port=5432,
-                                       user='postgres',
-                                       password='postgres')
-except psycopg2.Error as e:
-    print(e)
-else:
+def get_devices_info(device: Device):
 
-    mobile_device = MobileDevice(device_os='IOS',
-                                 device_name='Iphone',
-                                 model='15 Pro',
-                                 memory=256,
-                                 price=130000,
-                                 release_date=date(2023, 7, 5),
-                                 counter=1)
-    PGMobileDevices.read(db_connect, mobile_device)
-finally:
-    if db_connect:
-        db_connect.close()
+    db_connect = None
+    try:
+        db_connect = DBConnect.get_connect(dbname='shop',
+                                           host='localhost',
+                                           port=5432,
+                                           user='postgres',
+                                           password='postgres')
+        PGMobileDevices.read(db_connect, device)
+    except psycopg2.Error as e:
+        print(e)
+    finally:
+        if db_connect:
+            db_connect.close()
+
+
+
+
+mobile_device = MobileDevice(device_os='IOS',
+                             device_name='Iphone',
+                             model='15 Pro',
+                             memory=256,
+                             price=130000,
+                             release_date=date(2023, 7, 5),
+                             counter=1)
+
+get_devices_info(mobile_device)
