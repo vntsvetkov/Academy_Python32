@@ -64,7 +64,7 @@ else:
     query = """ INSERT INTO mobile_devices(device_os, device_name, model, memory, price, release_date, counter)
                 VALUES (%s, %s, %s, %s, %s, %s, %s)"""
 
-    params_many = [(1,), (2,)]
+    # params_many = [(1,), (2,)]
 
     try:
         cursor.execute(query, params)
