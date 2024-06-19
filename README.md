@@ -315,13 +315,17 @@
   - https://www.psycopg.org/docs/
   - https://www.postgresqltutorial.com/postgresql-python/connect/
   - https://www.postgresqltutorial.com/postgresql-python/transaction/
-
-Занятие 17. CRUD
-  - https://www.geeksforgeeks.org/perform-postgresql-crud-operations-from-python/
-
-Занятие 18. CRUD
   - https://www.postgresqltutorial.com/postgresql-python/create-tables/
-  - https://www.postgresqltutorial.com/postgresql-python/insert/
+
+Занятие 17. CRUD. Чтение данных
+  - https://www.geeksforgeeks.org/perform-postgresql-crud-operations-from-python/
   - https://www.postgresqltutorial.com/postgresql-python/query/
+
+Занятие 18. CRUD. Запись данных
+  - https://www.postgresqltutorial.com/postgresql-python/insert/
+
+Занятие 19. CRUD. Обновление данных
   - https://www.postgresqltutorial.com/postgresql-python/update/
+
+Занятие 20. CRUD. Удаление данных
   - https://www.postgresqltutorial.com/postgresql-python/delete/
