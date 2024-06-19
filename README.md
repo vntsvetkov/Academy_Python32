@@ -313,4 +313,15 @@
 
 Занятие 16. Обработка БД PostgreSQL на python
   - https://www.psycopg.org/docs/
-  - https://www.postgresqltutorial.com/postgresql-python/
+  - https://www.postgresqltutorial.com/postgresql-python/connect/
+  - https://www.postgresqltutorial.com/postgresql-python/transaction/
+
+Занятие 17. CRUD
+  - https://www.geeksforgeeks.org/perform-postgresql-crud-operations-from-python/
+
+Занятие 18. CRUD
+  - https://www.postgresqltutorial.com/postgresql-python/create-tables/
+  - https://www.postgresqltutorial.com/postgresql-python/insert/
+  - https://www.postgresqltutorial.com/postgresql-python/query/
+  - https://www.postgresqltutorial.com/postgresql-python/update/
+  - https://www.postgresqltutorial.com/postgresql-python/delete/
