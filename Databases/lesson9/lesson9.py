@@ -1,7 +1,6 @@
 import psycopg2
-
+from devices import Device, MobileDevice, MobileDevicesContainer, MobileDeviceBuilder
 from abc import ABC, abstractmethod
-from datetime import date
 
 
 class DBConnect:
@@ -14,52 +13,6 @@ class DBConnect:
             cls._instance = psycopg2.connect(*args, **kwargs)
         return cls._instance
 
-
-class Device(ABC):
-    @abstractmethod
-    def get_device_name(self):
-        ...
-
-    @abstractmethod
-    def get_model(self):
-        ...
-
-
-class MobileDevice(Device):
-
-    def __init__(self, device_os: str,
-                 device_name: str,
-                 model: str,
-                 memory: int,
-                 price: float,
-                 release_date: date,
-                 counter: int):
-        self._device_os = device_os
-        self._device_name = device_name
-        self._model = model
-        self._memory = memory
-        self._price = price
-        self._release_date = release_date
-        self._counter = counter
-
-    def get_device_name(self):
-        return self._device_name
-
-    def get_model(self):
-        return self._model
-
-class MobileDevicesContainer:
-
-    def __init__(self):
-        self._devices: list[Device] = []
-
-    @classmethod
-    def create_list_devices(cls, data: list) -> list[Device]:
-        # перезаписывает data (список кортежей) в self._devices (список объектов Device)
-        ...
-
-    def get_list_devices(self):
-        return self._devices
 
 class DBManager(ABC):
 
@@ -92,20 +45,23 @@ class PGMobileDevices(DBManager):
 
     @staticmethod
     def read(connect, device: Device) -> list[Device]:
-        with connect.cursor() as cursor:
 
-            params = (device.get_device_name, device.get_model)
-            query = """SELECT * 
-                       FROM mobile_devices
-                       WHERE device_name = %s AND model = %s"""
-            cursor.execute(query, params)
-            data = cursor.fetchall()
-            if len(data) > 0:
-                result: list[Device] = MobileDevicesContainer.get_list_devices(data)
-                return result
-            else:
-                raise Exception(f"Не найдена запись с параметрами {params}")
+        try:
+            with connect.cursor() as cursor:
 
+                params = (device.get_device_name, device.get_model)
+                query = """SELECT * 
+                           FROM mobile_devices
+                           WHERE device_name = %s AND model = %s"""
+                cursor.execute(query, params)
+                data = cursor.fetchall()
+                if data:
+                    result: list[Device] = MobileDevicesContainer.get_list_devices(data)
+                    return result
+                else:
+                    raise Exception(f"Не найдена запись с параметрами {params}")
+        except (Exception, psycopg2.Error) as e:
+            print(e)
 
     @staticmethod
     def update(connect, old_device: Device, new_device: Device):
@@ -133,14 +89,10 @@ def get_devices_info(device: Device):
             db_connect.close()
 
 
+mobile_device = MobileDeviceBuilder()
+mobile_device.create()
+mobile_device.set_device_name('Iphone')
+mobile_device.set_model('15 Pro')
+current_device = mobile_device.get_device()
 
-
-mobile_device = MobileDevice(device_os='IOS',
-                             device_name='Iphone',
-                             model='15 Pro',
-                             memory=256,
-                             price=130000,
-                             release_date=date(2023, 7, 5),
-                             counter=1)
-
-get_devices_info(mobile_device)
+get_devices_info(current_device)
