@@ -12,7 +12,9 @@ def get_devices_info(device: Device):
                                            port=5432,
                                            user='postgres',
                                            password='postgres')
-        PGMobileDevices.read(db_connect, device)
+        devices = PGMobileDevices.read(db_connect, device)
+        for d in devices:
+            print(d)
     except psycopg2.Error as e:
         print(e)
     finally:

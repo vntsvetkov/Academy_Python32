@@ -111,13 +111,13 @@ class MobileDevicesContainer:
         for record in data:
             device = MobileDeviceBuilder()
             device.create()
-            device.set_device_os(data[0])
-            device.set_device_name(data[1])
-            device.set_model(data[2])
-            device.set_memory(data[3])
-            device.set_price(data[4])
-            device.set_release_date(data[5])
-            device.set_counter(data[6])
+            device.set_device_os(record[0])
+            device.set_device_name(record[1])
+            device.set_model(record[2])
+            device.set_memory(record[3])
+            device.set_price(record[4])
+            device.set_release_date(record[5])
+            device.set_counter(record[6])
             self._devices.append(device.get_device())
             del device
 
