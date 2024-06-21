@@ -49,12 +49,13 @@ class PGMobileDevices(DBManager):
         try:
             with connect.cursor() as cursor:
 
-                params = (device.get_device_name, device.get_model)
+                params = (device.get_device_name(), device.get_model())
                 query = """SELECT * 
                            FROM mobile_devices
                            WHERE device_name = %s AND model = %s"""
                 cursor.execute(query, params)
                 data = cursor.fetchall()
+
                 if data:
                     container = MobileDevicesContainer()
                     container.create_list_devices(data)

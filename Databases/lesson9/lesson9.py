@@ -25,7 +25,7 @@ def get_devices_info(device: Device):
 if __name__ == "__main__":
     mobile_device = MobileDeviceBuilder()
     mobile_device.create()
-    mobile_device.set_device_name('Iphone')
+    mobile_device.set_device_name('IPhone')
     mobile_device.set_model('15 Pro')
     current_device = mobile_device.get_device()
 

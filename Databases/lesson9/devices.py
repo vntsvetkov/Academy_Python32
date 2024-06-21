@@ -29,6 +29,9 @@ class MobileDevice(Device):
     def get_model(self):
         return self.model
 
+    def __str__(self):
+        return f"{self.device_name} {self.model} {self.price}"
+
 
 class Builder(ABC):
 
@@ -111,13 +114,13 @@ class MobileDevicesContainer:
         for record in data:
             device = MobileDeviceBuilder()
             device.create()
-            device.set_device_os(record[0])
-            device.set_device_name(record[1])
-            device.set_model(record[2])
-            device.set_memory(record[3])
-            device.set_price(record[4])
-            device.set_release_date(record[5])
-            device.set_counter(record[6])
+            device.set_device_os(record[1])
+            device.set_device_name(record[2])
+            device.set_model(record[3])
+            device.set_memory(record[4])
+            device.set_price(record[5])
+            device.set_release_date(record[6])
+            device.set_counter(record[7])
             self._devices.append(device.get_device())
             del device
 
