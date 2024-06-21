@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from devices import Device, MobileDevicesContainer
+from devices import Device, MobileDevice, MobileDevicesContainer
 import psycopg2
 
 
@@ -41,6 +41,7 @@ class PGMobileDevices(DBManager):
 
     @staticmethod
     def create(connect, device: Device):
+        # Вызвать запрос вставки данных из объекта
         ...
 
     @staticmethod
@@ -66,10 +67,30 @@ class PGMobileDevices(DBManager):
             print(e)
 
     @staticmethod
-    def update(connect, old_device: Device, new_device: Device):
-        ...
+    def update(connect, index_old_device: int, new_device: MobileDevice):
+
+        try:
+            with connect.cursor() as cursor:
+                params = (new_device.device_os, new_device.device_name,
+                          new_device.model, new_device.memory,
+                          new_device.price, new_device.release_date,
+                          new_device.counter, index_old_device)
+                query = """ UPDATE mobile_devices
+                            SET 
+                                device_os = %s,
+                                device_name = %s,
+                                model = %s,
+                                memory = %s,
+                                price = %s,
+                                release_date = %s,
+                                counter = %s
+                            WHERE mobile_device_id = %s; """
+                cursor.execute(query, params)
+        except (Exception, psycopg2.Error) as e:
+            print(e)
 
     @staticmethod
     def delete(connect, device: Device):
+        # Найти индекс девайса и удалить его
         ...
 
