@@ -56,8 +56,9 @@ class PGMobileDevices(DBManager):
                 cursor.execute(query, params)
                 data = cursor.fetchall()
                 if data:
-                    result: list[Device] = MobileDevicesContainer.get_list_devices(data)
-                    return result
+                    container = MobileDevicesContainer()
+                    container.create_list_devices(data)
+                    return container.get_list_devices()
                 else:
                     raise Exception(f"Не найдена запись с параметрами {params}")
         except (Exception, psycopg2.Error) as e:
