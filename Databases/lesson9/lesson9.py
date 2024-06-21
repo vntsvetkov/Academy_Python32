@@ -20,10 +20,11 @@ def get_devices_info(device: Device):
             db_connect.close()
 
 
-mobile_device = MobileDeviceBuilder()
-mobile_device.create()
-mobile_device.set_device_name('Iphone')
-mobile_device.set_model('15 Pro')
-current_device = mobile_device.get_device()
+if __name__ == "__main__":
+    mobile_device = MobileDeviceBuilder()
+    mobile_device.create()
+    mobile_device.set_device_name('Iphone')
+    mobile_device.set_model('15 Pro')
+    current_device = mobile_device.get_device()
 
-get_devices_info(current_device)
+    get_devices_info(current_device)

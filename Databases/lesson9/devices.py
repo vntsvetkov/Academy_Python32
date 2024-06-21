@@ -106,10 +106,20 @@ class MobileDevicesContainer:
     def __init__(self):
         self._devices: list[Device] = []
 
-    @classmethod
-    def create_list_devices(cls, data: list) -> list[Device]:
-        # перезаписывает data (список кортежей) в self._devices (список объектов Device)
-        ...
+    def create_list_devices(self, data: list) -> None:
+
+        for record in data:
+            device = MobileDeviceBuilder()
+            device.create()
+            device.set_device_os(data[0])
+            device.set_device_name(data[1])
+            device.set_model(data[2])
+            device.set_memory(data[3])
+            device.set_price(data[4])
+            device.set_release_date(data[5])
+            device.set_counter(data[6])
+            self._devices.append(device.get_device())
+            del device
 
     def add_device(self, device: Device):
         self._devices.append(device)
