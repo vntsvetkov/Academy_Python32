@@ -329,3 +329,6 @@
 
 Занятие 20. CRUD. Удаление данных
   - https://www.postgresqltutorial.com/postgresql-python/delete/
+
+Django
+https://www.pythontutorial.net/django-tutorial/getting-started-with-django/
