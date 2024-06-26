@@ -12,7 +12,7 @@
     https://realpython.com/python3-object-oriented-programming/
 
 День 1. Классы и объекты
-  - https://docs-python.ru/tutorial/klassy-jazyke-python/obekt-klassa/
+  -  https://docs-python.ru/tutorial/klassy-jazyke-python/obekt-klassa/
   -  https://www.pythontutorial.net/python-oop/python-__init__/
   -  https://www.pythontutorial.net/python-oop/python-class/
   -  https://www.pythontutorial.net/python-oop/python-instance-variables/
@@ -306,6 +306,8 @@
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cte/
   - https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-recursive-query/
 
+Часть 2. PostgreSQL и Python
+
 Занятие 15. Транзакции
   - https://habr.com/ru/articles/317884/
   - https://habr.com/ru/articles/555920/
@@ -330,5 +332,18 @@
 Занятие 20. CRUD. Удаление данных
   - https://www.postgresqltutorial.com/postgresql-python/delete/
 
-Django
-https://www.pythontutorial.net/django-tutorial/getting-started-with-django/
+
+Блок 3. Фреймворк Django
+
+Документация:
+    - https://www.pythontutorial.net/django-tutorial/getting-started-with-django/
+
+Занятие 1. Установка и настройка Django
+    - https://proglib.io/p/kurs-django-chast-1-django-chto-eto-obzor-i-ustanovka-freymvorka-struktura-proekta-2023-07-25
+    - https://habr.com/ru/articles/747234/
+    - https://thecode.media/django/
+    
+Занятие 2. Первый проект. Маршруты
+    - https://www.pythontutorial.net/django-tutorial/django-create-app/
+    - https://habr.com/ru/articles/749142/#habracut
+    
