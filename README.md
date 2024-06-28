@@ -334,7 +334,9 @@
 
 
 Блок 3. Фреймворк Django
-Репозиторий https://github.com/vntsvetkov/django
+
+Репозиторий: https://github.com/vntsvetkov/django
+
 Документация:
     - https://www.pythontutorial.net/django-tutorial/getting-started-with-django/
 
@@ -347,3 +349,6 @@
     - https://www.pythontutorial.net/django-tutorial/django-create-app/
     - https://habr.com/ru/articles/749142/#habracut
     
+Занятие 3. Представления
+
+Занятие 4. Параметры представлений
