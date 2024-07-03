@@ -348,7 +348,19 @@
 Занятие 2. Первый проект. Маршруты
     - https://www.pythontutorial.net/django-tutorial/django-create-app/
     - https://habr.com/ru/articles/749142/#habracut
+    - https://djangodoc.ru/3.1/topics/http/urls/#
     
 Занятие 3. Представления
 
 Занятие 4. Параметры представлений
+  - https://habr.com/ru/companies/X5Tech/articles/798681/
+  - https://docs.djangoproject.com/en/5.0/topics/http/
+
+Занятие 5. Шаблоны
+  - https://docs.djangoproject.com/en/5.0/topics/templates/#
+  - https://www.pythontutorial.net/django-tutorial/django-templates/
+  - https://nuancesprog.ru/p/13061/ (как сделать страницу 404)
+
+Занятие 6. Язык шаблонов
+  - https://docs.djangoproject.com/en/5.0/topics/templates/#the-django-template-language
+  - https://realpython.com/django-templates-tags-filters/
