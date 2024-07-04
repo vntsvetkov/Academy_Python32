@@ -335,7 +335,7 @@
 
 Блок 3. Фреймворк Django
 
-Репозиторий: https://github.com/vntsvetkov/django
+Репозиторий: https://github.com/vntsvetkov/django_project
 
 Документация:
     - https://www.pythontutorial.net/django-tutorial/getting-started-with-django/
