@@ -366,3 +366,10 @@
   - https://realpython.com/django-templates-tags-filters/
   - https://docs.djangoproject.com/en/5.0/ref/templates/builtins/#ref-templates-builtins-tags
   - https://docs.djangoproject.com/en/5.0/ref/templates/builtins/#built-in-filter-reference
+
+Занятие 7. Статические файлы
+  - https://django.fun/docs/django/5.0/howto/static-files/
+
+Занятие 8. Включение и наследование шаблонов
+  - https://djangodoc.ru/3.2/ref/templates/language/#template-inheritance
+  - https://djangodoc.ru/3.2/ref/templates/builtins/#std:templatetag-include
