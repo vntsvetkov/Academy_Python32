@@ -361,6 +361,8 @@
   - https://www.pythontutorial.net/django-tutorial/django-templates/
   - https://nuancesprog.ru/p/13061/ (как сделать страницу 404)
 
-Занятие 6. Язык шаблонов
+Занятие 6. Язык шаблонов. Фильтры и теги.
   - https://docs.djangoproject.com/en/5.0/topics/templates/#the-django-template-language
   - https://realpython.com/django-templates-tags-filters/
+  - https://docs.djangoproject.com/en/5.0/ref/templates/builtins/#ref-templates-builtins-tags
+  - https://docs.djangoproject.com/en/5.0/ref/templates/builtins/#built-in-filter-reference
