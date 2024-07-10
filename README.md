@@ -373,3 +373,15 @@
 Занятие 8. Включение и наследование шаблонов
   - https://djangodoc.ru/3.2/ref/templates/language/#template-inheritance
   - https://djangodoc.ru/3.2/ref/templates/builtins/#std:templatetag-include
+
+Занятие 9-10. HTML формы в django
+  - https://developer.mozilla.org/ru/docs/Learn/Server-side/Django/Forms
+  - https://docs.djangoproject.com/en/5.0/topics/forms/
+  - https://developer.mozilla.org/ru/docs/Web/HTML/Element/form
+  - https://developer.mozilla.org/ru/docs/Web/HTML/Element/input
+  - https://getbootstrap.com/docs/5.0/forms/overview/
+
+Занятие 11-12. django.forms
+  - https://developer.mozilla.org/ru/docs/Learn/Server-side/Django/Forms
+  - https://www.pythontutorial.net/django-tutorial/django-form/
+
