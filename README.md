@@ -369,6 +369,7 @@
 
 Занятие 7. Статические файлы
   - https://django.fun/docs/django/5.0/howto/static-files/
+  - https://django.fun/articles/tutorials/rukovodstvo-po-zagruzke-fajlov-i-izobrazhenij-v-django/
 
 Занятие 8. Включение и наследование шаблонов
   - https://djangodoc.ru/3.2/ref/templates/language/#template-inheritance
