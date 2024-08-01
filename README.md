@@ -391,10 +391,12 @@
   - https://django.fun/docs/django/4.1/ref/models/querysets/#queryset-api (QuerySet API)
   - https://django.fun/ru/docs/django/4.1/topics/db/queries/ (как выполнять запросы)
   - https://django.fun/docs/django/5.0/topics/db/managers/#django.db.models.Manager
+  - https://www.geeksforgeeks.org/imagefield-django-models/
     
 Занятие 15-16. ORM
   - https://www.pythontutorial.net/django-tutorial/django-orm/
   - https://www.pythontutorial.net/django-tutorial/django-models/
   - https://www.pythontutorial.net/django-tutorial/django-migrations/
+  - https://developer.mozilla.org/ru/docs/Learn/Server-side/Django/Admin_site
 
 
