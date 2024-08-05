@@ -397,6 +397,16 @@
   - https://www.pythontutorial.net/django-tutorial/django-orm/
   - https://www.pythontutorial.net/django-tutorial/django-models/
   - https://www.pythontutorial.net/django-tutorial/django-migrations/
+  
+Занятие 17-18. Административная панель
   - https://developer.mozilla.org/ru/docs/Learn/Server-side/Django/Admin_site
+  - https://www.pythontutorial.net/django-tutorial/django-admin-page/
 
-
+Занятие 19-20. Регистрация и авторизация пользователя. Сессии.
+  - https://docs.djangoproject.com/en/5.0/topics/auth/
+  - https://www.pythontutorial.net/django-tutorial/django-login/
+  - https://developer.mozilla.org/ru/docs/Learn/Server-side/Django/Authentication
+  - https://www.pythontutorial.net/django-tutorial/django-registration/
+  - https://www.pythontutorial.net/django-tutorial/django-user-profile/
+  - https://django.fun/docs/django/5.0/topics/http/sessions/
+  - https://developer.mozilla.org/ru/docs/Learn/Server-side/Django/Sessions
